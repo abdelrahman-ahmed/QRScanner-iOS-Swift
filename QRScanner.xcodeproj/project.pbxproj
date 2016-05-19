@@ -10,6 +10,9 @@
 		BCBEEE161CEE35AB00ABAE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEEE101CEE35AB00ABAE68 /* AppDelegate.swift */; };
 		BCBEEE171CEE35AB00ABAE68 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEEE131CEE35AB00ABAE68 /* ScannerViewController.swift */; };
 		BCBEEE181CEE35AB00ABAE68 /* QRSCannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEEE151CEE35AB00ABAE68 /* QRSCannerView.swift */; };
+		BCBEEE201CEE38D200ABAE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEEE1F1CEE38D200ABAE68 /* ViewController.swift */; };
+		BCBEEE211CEE3AB500ABAE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBEEE1B1CEE38A800ABAE68 /* Main.storyboard */; };
+		BCBEEE221CEE3ABD00ABAE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBEEE191CEE38A800ABAE68 /* LaunchScreen.storyboard */; };
 		BCDF525D1CEC7E000056EF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDF525C1CEC7E000056EF89 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +20,9 @@
 		BCBEEE101CEE35AB00ABAE68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBEEE131CEE35AB00ABAE68 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		BCBEEE151CEE35AB00ABAE68 /* QRSCannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRSCannerView.swift; sourceTree = "<group>"; };
+		BCBEEE1A1CEE38A800ABAE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCBEEE1C1CEE38A800ABAE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCBEEE1F1CEE38D200ABAE68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCDF52521CEC7E000056EF89 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDF525C1CEC7E000056EF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDF52611CEC7E000056EF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,8 +93,11 @@
 			children = (
 				BCBEEE0F1CEE35AB00ABAE68 /* Appdelegate */,
 				BCBEEE111CEE35AB00ABAE68 /* QRScanner */,
+				BCBEEE191CEE38A800ABAE68 /* LaunchScreen.storyboard */,
+				BCBEEE1B1CEE38A800ABAE68 /* Main.storyboard */,
 				BCDF525C1CEC7E000056EF89 /* Assets.xcassets */,
 				BCDF52611CEC7E000056EF89 /* Info.plist */,
+				BCBEEE1F1CEE38D200ABAE68 /* ViewController.swift */,
 			);
 			path = QRScanner;
 			sourceTree = "<group>";
@@ -151,6 +160,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBEEE221CEE3ABD00ABAE68 /* LaunchScreen.storyboard in Resources */,
+				BCBEEE211CEE3AB500ABAE68 /* Main.storyboard in Resources */,
 				BCDF525D1CEC7E000056EF89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,11 +175,31 @@
 			files = (
 				BCBEEE161CEE35AB00ABAE68 /* AppDelegate.swift in Sources */,
 				BCBEEE171CEE35AB00ABAE68 /* ScannerViewController.swift in Sources */,
+				BCBEEE201CEE38D200ABAE68 /* ViewController.swift in Sources */,
 				BCBEEE181CEE35AB00ABAE68 /* QRSCannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCBEEE191CEE38A800ABAE68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBEEE1A1CEE38A800ABAE68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BCBEEE1B1CEE38A800ABAE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBEEE1C1CEE38A800ABAE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BCDF52621CEC7E000056EF89 /* Debug */ = {
