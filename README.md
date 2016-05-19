@@ -9,10 +9,10 @@ iOS 8.0+
 Xcode 7.3+
 
 #Usage
-- instatnciate QRScannerViewController
-- set deleget of the QRScannerViewController instance
+- instatnciate ScannerViewController
+- set deleget of the ScannerViewController instance
 - implemnet  QRScannerViewControllerDelegate
-- peresent QRScannerViewController instance from your ViewController
+- peresent ScannerViewController instance from your ViewController
 
 # QRScannerViewControllerDelegate methods
     func codeDidFound(code: String)
