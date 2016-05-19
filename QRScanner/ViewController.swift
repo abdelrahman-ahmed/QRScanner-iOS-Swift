@@ -19,6 +19,7 @@ class ViewController: UIViewController, QRScannerViewControllerDelegate
     @IBAction func scanQR(sender:UIButton){
         let vc = ScannerViewController()
         vc.modalTransitionStyle = .FlipHorizontal
+        vc.delegate = self
         presentViewController(vc, animated: true, completion: nil)
     }
     
